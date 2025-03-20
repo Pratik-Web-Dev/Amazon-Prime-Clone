@@ -1,0 +1,103 @@
+*{
+    color: white;
+}
+body{
+
+    font-family: 'Amazon Ember', Arial, sans-serif;
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+}
+#navbar{
+    background-color:dimgray;
+    padding:15px 55px 0px 55px;
+    display: flex;
+    height: 70px;
+    align-items: center ;
+    font-size: larger;
+}
+.logo{
+}
+.ulnav{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+.ulnav a{
+    color: white;
+    text-decoration: none;
+    
+}
+.search{
+    padding-left: 250px;
+}
+.search input{
+    color: black;
+    width: 70px;
+    border-radius: 5px;
+    height: 30px;
+}
+.language{
+    padding-left: 10px;
+}
+.language select{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    height: 30px;
+}
+.profile-icon {
+    width: 40px;
+    height: 40px; 
+    margin-left: 20px;
+    background: black;
+    border-radius: 50%;
+}
+.profile-icon img{
+    width: 40px;
+    height: 40px; 
+    border-radius: 50%;
+}
+.profile-icon:hover{
+    transform:scale(1.1);
+
+}
+.join{
+    padding-left: 25px;
+}
+.join button{
+    border-radius: 5px;
+    height: 40px;
+    width: 100px;
+
+}
+.join button:hover{
+    transform: scale(1.1);
+}
+.Maincontent{
+    padding: 55px;
+}
+.Maincontent button{
+    border-radius: 5px;
+    height: 50px;
+    width: 10%;
+}
+.movies{
+    display: inline-flex;
+    gap: 10px;
+    padding: 55px;
+    
+}
+.movie{
+    width: 300px;
+    height: 200px;
+    background: grey;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.movie img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
